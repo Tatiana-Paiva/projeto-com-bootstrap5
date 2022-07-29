@@ -1,3 +1,12 @@
-body {
+* {
     font-family: 'Roboto', sans-serif;
+    color: darkslategray;
+}
+
+.bg-primary-color {
+    background-color: #FFF;
+}
+
+.bg-secondary-color {
+    background-color: #ECE8EA;
 }
