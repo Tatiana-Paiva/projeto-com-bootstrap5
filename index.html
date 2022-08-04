@@ -57,7 +57,76 @@
         </div>
     </div>
  </nav>
+
 <!--Slider--->
+
+<div class="container" id="slider-container">
+    <div class="carousel slide" id="slider" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button
+                type="button"
+                class="active"
+                data-bs-target="#slider"
+                data-bs-slide-to="0"
+                aria-current="true"
+                aria-label="slide 1"
+               ></button>
+               <button
+               type="button"              
+               data-bs-target="#slider"
+               data-bs-slide-to="1"              
+               aria-label="slide 2"
+              ></button>
+              <button
+              type="button"             
+              data-bs-target="#slider"
+              data-bs-slide-to="2"             
+              aria-label="slide 3"
+             ></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/banner-1.jpg" alt="Casa 1" class="d-block w-100">
+                <div class="carousel-caption">
+                    <h5>Casas Planejadas</h5>
+                    <a href="#" class="btn btn-dark">Ver Projetos</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/banner-2.jpg" alt="Casa 2" class="d-block w-100">
+                <div class="carousel-caption">
+                    <h5>Casas Projetos Complexos</h5>
+                    <a href="#" class="btn btn-dark">Ver Projetos</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/banner-3.jpg" alt="Casa 3" class="d-block w-100">
+                <div class="carousel-caption">
+                    <h5>Projetos Inovadores</h5>
+                    <a href="#" class="btn btn-dark">Ver Projetos</a>
+                </div>
+            </div>
+        </div>
+        <button
+         class="carousel-control-prev"
+          type="button"
+           data-bs-target="#slider"
+            data-bs-slide="carousel-control-prev"
+            >
+            <i class="bi bi-chevron-compat-left"></i>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+        class="carousel-control-next"
+         type="button"
+          data-bs-target="#slider"
+           data-bs-slide="carousel-control-next"
+           >
+           <i class="bi bi-chevron-compat-right"></i>
+           <span class="visually-hidden">Next</span>
+       </button>
+    </div>
+</div>
     
 </body>
 </html>
